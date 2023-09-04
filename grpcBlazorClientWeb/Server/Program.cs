@@ -7,9 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 //builder.Services.AddGrpc(); //enable grpc
 builder.Services.AddGrpc(options =>
 {
+    
     options.EnableDetailedErrors = true;
-    options.MaxReceiveMessageSize = 2 * 1024 * 1024; // 2 MB
-    options.MaxSendMessageSize = 5 * 1024 * 1024; // 5 MB
+    options.MaxReceiveMessageSize =4 * 1024 * 1024; // 4 MB
+    options.MaxSendMessageSize = 10 * 1024 * 1024; // 10 MB
 });
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
@@ -40,6 +41,7 @@ app.UseGrpcWeb(new GrpcWebOptions { DefaultEnabled = true });
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapGrpcService<WeatherForecastService>();
+    
 });
 app.UseEndpoints(endpoints =>
 {
