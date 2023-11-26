@@ -1,5 +1,5 @@
-# Asp.net Blazor-wasm app as web client with grpc-web(.net6 with C#)9
-A .NET Core-6 Blazor-wasm Web app implementation with  grpc-web(.net6 with C#) for high performance and huge amount of data loading at webclient -chorme/edge browser at windows 10 enviroment.
+# Asp.net Blazor-wasm app as web client with grpc-web(.net6 with C#)
+A .NET Core-6 Blazor-WASM Webapp implementation with  grpc-web(.net6 with C#) for high performance and huge amount of data loading at webclient -chorme/edge browser at windows 10 enviroment.
 
 Give a Star! ⭐
 ----------------------------------------------------------------------------------------------------------------------
