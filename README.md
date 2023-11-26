@@ -7,7 +7,7 @@ If you like this project, learn something or you are using it in your applicatio
 
 PreFace
 --------------------------------------------------------------------------------------------------------------------
-**have u see that a huge amout of data are loading to a UI browser (10K count of rows  records data)** -- *NO* , It is not possible to handle a buge amount of data at web applicatuon or *http/tcp or werbshoket*</br>  protocole</br>
+**have u see that a huge amout of data are loading to a UI browser (10K count of rows  records data)** -- *NO* , It is not possible to handle a buge amount of data at web applicatuon or *http/tcp or werbshoket* protocole</br>
 Normally, For loading a huge amount data at UI web app, We used to follow below tricks as.. </br>
 *1) trying pagination concept at store procedure(db level) for retuning huge data as chunks by chunks to web client-</br>*
 *2) trying do pagination logic at API/ UI app and used to do cashing mechanism for most viewable page's data at web client -</br>*
