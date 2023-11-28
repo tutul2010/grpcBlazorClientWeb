@@ -15,7 +15,7 @@ Normally, For loading a huge amount data at UI web app, We used to follow below 
 If you are loading below azure histed website and try to load huge amount(click at 'Fetch data 10k') data at Browser-chrorme and Thanks to  #msft for grpc-web framework </br>
 for increasing request /response msg sizing of web or many others feature like web streaming . Above UI page is taking  time(2/4 minutes) to load 10k counts of rows data.</br>
 
-Please, Check for Azure Hosted application , Web URL- https://lnkd.in/gR_uQE_k
+Please, Check for Azure Hosted application , Web URL- https://testingcodelinuxapp.azurewebsites.net/fetchdata10k
 
 Description
 ----------------------------------------------------------------------------------------------------------------------
